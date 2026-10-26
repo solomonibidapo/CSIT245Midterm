@@ -1,0 +1,174 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5%;
+  background-color: #0b1030;
+  background-image: url("images/moonlit-garden-bg.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(10, 14, 40, 0.75);
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 44px;
+  color: #f3edc8;
+}
+
+h3 {
+  color: #c9b8f0;
+}
+
+nav {
+  text-align: center;
+  margin: 15px 0;
+  padding: 12px;
+  background-color: rgba(10, 14, 40, 0.8);
+  border-radius: 10px;
+}
+
+nav a {
+  color: #f3edc8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.panel {
+  background-color: rgba(12, 18, 46, 0.85);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.glow {
+  color: #f3edc8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 20px;
+  color: lavender;
+}
+
+.highlight {
+  background-color: #ffe27a;
+  color: #1a1440;
+  padding: 0 4px;
+}
+
+.featured {
+  border: 3px dashed #c9b8f0;
+  padding: 15px 20px;
+  margin: 20px 0;
+  background-color: #2a2160;
+}
+
+.features {
+  list-style-type: square;
+}
+
+.features > li {
+  margin-bottom: 8px;
+  color: #e6f4e8;
+}
+
+.steps {
+  list-style-type: upper-roman;
+}
+
+.note {
+  color: lavender;
+  font-style: italic;
+}
+
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.photo {
+  width: 320px;
+  height: auto;
+  border: 4px solid #f3edc8;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 15px;
+  color: #c9b8f0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(20, 26, 60, 0.9);
+}
+
+caption {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px;
+  color: #f3edc8;
+}
+
+th,
+td {
+  border: 1px solid #c9b8f0;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  background-color: #5b3fa0;
+  color: white;
+}
+
+td a {
+  color: #ffe27a;
+}
+
+.thumb {
+  width: 80px;
+  height: auto;
+  border-radius: 6px;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted #f3edc8;
+  margin: 25px 0;
+}
+
+#visit {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 12px;
+  background-color: rgba(10, 14, 40, 0.85);
+  border-radius: 10px;
+}
+
+footer a {
+  color: #f3edc8;
+}
